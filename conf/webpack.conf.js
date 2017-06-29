@@ -68,8 +68,6 @@ module.exports = {
       debug: true
     }),
     new webpack.DefinePlugin({
-      LANG: JSON.stringify('en'),
-      angular: 'angular'
     })
   ],
   devtool: 'source-map',

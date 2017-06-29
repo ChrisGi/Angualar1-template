@@ -74,8 +74,6 @@ module.exports = {
       }
     }),
     new webpack.DefinePlugin({
-      LANG: JSON.stringify('en'),
-      angular: 'angular'
     })
   ],
   output: {
